@@ -1,0 +1,47 @@
+.tagsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+}
+
+.label {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  color: #6b7280;
+  letter-spacing: 0.02em;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.tag {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  color: #374151;
+  background-color: #f3f4f6;
+  padding: 4px 10px;
+  border-radius: 6px;
+  user-select: none;
+  transition: all 0.15s ease;
+}
+
+.tag:hover {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+.linkTag {
+  background-color: #f5f3ff;
+  color: #4f46e5;
+}
+
+.linkTag:hover {
+  background-color: #ede9fe;
+  color: #4338ca;
+}
